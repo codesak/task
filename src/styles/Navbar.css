@@ -1,0 +1,70 @@
+.Nav{
+    
+    display: flex;
+    width: 85vw; 
+    height:10vh;
+    margin-top: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.logo_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo_container h2{
+font-family: 'Rubik';
+font-style: normal;
+font-weight:700;
+font-size: 20px;
+line-height: 24px;
+color: rgba(11, 19, 42, 1);
+}
+
+.menu{
+display: flex;
+justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgba(79, 86, 101, 1);
+line-height: 19px;
+   margin: 30px;
+}
+
+.login{
+display: flex;
+align-items: center;
+}
+
+.login h3{
+cursor: pointer;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: rgba(11, 19, 42, 1);
+margin-right: 30px;
+font-weight: 700;
+}
+
+.nav_btn{
+color: rgba(245, 56, 85, 1);
+border: 1px solid #F53855;
+border-radius: 20px;
+width: 8.5vw;
+height: 5vh;
+cursor: pointer;
+font-weight: 700;
+background-color: #f6f6f6;
+}

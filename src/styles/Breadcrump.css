@@ -1,0 +1,14 @@
+.breadcrump-container{
+display: flex;
+justify-content: center;
+width: 100vw;
+}
+.crumpdata{
+    display: flex;
+    justify-content: flex-start;
+    width: 42vw;
+    font-size: larger;
+    align-items: center;
+    opacity: 80%;
+    margin-top: 20px;
+}
