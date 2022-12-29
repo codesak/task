@@ -45,7 +45,7 @@ const PersonalDetails = () => {
     }
 
     console.log(firstName, lastName)
-        axios.post('http://localhost:4000/details',
+        axios.post('https://task-backend-kappa.vercel.app/details',
             {
                 firstName: firstName,
                 lastName: lastName,
