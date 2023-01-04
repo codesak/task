@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import BreadCrump from "./BreadCrump"
 import "../styles/BusinessDetails.css"
 import { Link } from 'react-router-dom'
@@ -6,6 +6,8 @@ import { MenuItem, TextField, Typography, Button} from '@mui/material'
 
 
 const BusinessDetails = () => {
+
+  
   return (
     <>
       <BreadCrump data={"Personal Details > Business Details"} />
@@ -15,12 +17,13 @@ const BusinessDetails = () => {
           <Typography variant="h5">Business Details</Typography>
 
           <div className="details_formsection">
-            <TextField placeholder="Company Name" label="Company Name" variant="outlined" style={{ width: "28vw" }} >Company Name</TextField>
+            <TextField   placeholder="Company Name" label="Company Name" variant="outlined" style={{ width: "28vw" }} >Company Name</TextField>
             <TextField
               select
               variant='outlined'
               label="Company Type"
               style={{ width: "14vw" }}
+              
 
             >
               <MenuItem value="LLP">LLP</MenuItem>
@@ -33,9 +36,9 @@ const BusinessDetails = () => {
           </div>
 
           <div className="details_formsection">
-            <TextField placeholder='dd/mm/yyyy' label="Date of Incorporation" variant="outlined" style={{ width: "12vw" }}>Date of Incorporation</TextField>
-            <TextField placeholder='Company PAN Card No.' label="Company PAN Card No." variant="outlined" style={{ width: "14vw" }}>Company PAN Card No.</TextField>
-            <TextField placeholder='Company GST No.' label="Company GST No." variant="outlined" style={{ width: "15vw" }}>Company GST No.</TextField>
+            <TextField  placeholder='dd/mm/yyyy' label="Date of Incorporation" variant="outlined" style={{ width: "12vw" }}>Date of Incorporation</TextField>
+            <TextField  placeholder='Company PAN Card No.' label="Company PAN Card No." variant="outlined" style={{ width: "14vw" }}>Company PAN Card No.</TextField>
+            <TextField  placeholder='Company GST No.' label="Company GST No." variant="outlined" style={{ width: "15vw" }}>Company GST No.</TextField>
           </div>
 
           <div className="details_formsection">
